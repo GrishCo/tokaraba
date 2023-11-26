@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== FAVICON ===============-->
+  <link rel="icon" href="./img/favicon.png" type="image/x-icon">
+
+  <title>TOKARABA</title>
+
+  <!--=============== REMIX ICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- =============== MATERIALIZE =============== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!--=============== STYLES CSS ===============-->
+  <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+  <!-- ========= PRELOADER ========= -->
+  <div id="preloader">
+    <div class="preloader_container">
+      <div class="ring"></div>
+      <div class="ring"></div>
+      <div class="ring"></div>
+  
+      <p class="loading">
+        TOKARABA <span>loading...</span>
+      </p>
+    </div>
+  </div>
+
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <div class="nav__container">
+      <a href="#" class="nav__logo">
+        <img src="./img/logo.png" alt="logo">
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Главная</a>
+          </li>
+          <li class="nav__item">
+            <a href="#catalog" class="nav__link">Каталог моделей</a>
+          </li>
+          <li class="nav__item">
+            <a href="#charge" class="nav__link">Зарядные устройства</a>
+          </li>
+          <li class="nav__item">
+            <a href="https://wa.me/+996508000133" target="_blank" class="contact__button">
+              Написать в WhatsApp
+              <!-- +996 508 00 01 33 -->
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="tel: +996508000133" class="call__button">
+              Позвонить
+            </a>
+          </li>
+        </ul>
+
+        <div class="nav__socials">
+          <ul class="nav__socials-links">
+            <li class="nav__socials-link-item">
+              <a href="https://www.instagram.com/tokaraba.kg/" class="nav__social-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+            </li>
+  
+            <li class="nav__socials-link-item">
+              <a href="https://www.facebook.com/tokaraba.kg?mibextid=ZbWKwL" class="nav__social-link">
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+            </li>
+  
+            <li class="nav__socials-link-item">
+              <a href="https://www.youtube.com/channel/UC_tfyiBPiazGE0xQbuc0uTQ" class="nav__social-link">
+                <i class="ri-youtube-line"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+
+      <!-- Toggle button -->
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </div>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="container">
+        <div class="home__content">
+          <!-- TITLES -->
+          <div class="titles">
+            <h1>han ev</h1>
+            <span>byd</span>
+          </div>
+
+          <!-- CAR IMAGE -->
+          <div class="car">
+            <img src="./img/cars/scene/byd_han_ev.png" alt="byd_han_ev">
+          </div>
+
+          <!-- TECHS -->
+          <div class="techs">
+            <div class="techs__item speed">
+              <div class="techs__item-icon">
+                <i class="ri-speed-up-fill"></i>
+              </div>
+
+              <div class="techs__item-content">
+                <div class="techs__item-title">
+                  Максимальная скорость :
+                </div>
+                <div class="techs__item-data">
+                  185 км/ч
+                </div>
+              </div>
+            </div>
+
+            <div class="techs__item way">
+              <div class="techs__item-icon">
+                <i class="ri-route-line"></i>
+              </div>
+
+              <div class="techs__item-content">
+                <div class="techs__item-title">
+                  Запас хода :
+                </div>
+                <div class="techs__item-data">
+                  610 км
+                </div>
+              </div>
+            </div>
+
+            <div class="techs__item battery">
+              <div class="techs__item-icon">
+                <i class="ri-battery-charge-line"></i>
+              </div>
+              
+              <div class="techs__item-content">
+                <div class="techs__item-title">
+                  Ёмкость батареи :
+                </div>
+                <div class="techs__item-data">
+                  76,9 кВт/ч
+                </div>
+              </div>
+            </div>
+
+            <div class="techs__item charge">
+              <div class="techs__item-icon">
+                <i class="ri-charging-pile-line"></i>
+              </div>
+
+              <div class="techs__item-content">
+                <div class="techs__item-title">
+                  Время заряда :
+                </div>
+                <div class="techs__item-data">
+                  10 ч
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="description-btn">
+            Описание модели
+          </a>
+        </div>
+
+        <!-- =========== SCROLLING LOGOS =========== -->
+        <div class="scroll__box">
+          <div class="scroll ImgBox" style="--time:45s">
+            <div>
+              <img src="./img/logo/bmw.png" alt="">
+              <img src="./img/logo/byd.png" alt="">
+              <img src="./img/logo/changan.png" alt="">
+              <img src="./img/logo/chery.png" alt="">
+              <!-- <img src="./img/logo/dfm.png" alt=""> -->
+              <img src="./img/logo/faw.png" alt="">
+              <!-- <img src="./img/logo/gac.png" alt=""> -->
+              <img src="./img/logo/geely.png" alt="">
+              <img src="./img/logo/greatwall.png" alt="">
+              <img src="./img/logo/hafei.png" alt="">
+              <img src="./img/logo/honda.png" alt="">
+              <!-- <img src="./img/logo/hozon.png" alt=""> -->
+              <img src="./img/logo/jac.png" alt="">
+              <!-- <img src="./img/logo/li_auto.png" alt=""> -->
+              <!-- <img src="./img/logo/nio.png" alt=""> -->
+              <img src="./img/logo/nissan.png" alt="">
+              <img src="./img/logo/tesla.png" alt="">
+              <img src="./img/logo/toyota.png" alt="">
+              <!-- <img src="./img/logo/xpeng.png" alt=""> -->
+            </div>
+            <div>
+              <img src="./img/logo/bmw.png" alt="">
+              <img src="./img/logo/byd.png" alt="">
+              <img src="./img/logo/changan.png" alt="">
+              <img src="./img/logo/chery.png" alt="">
+              <!-- <img src="./img/logo/dfm.png" alt=""> -->
+              <img src="./img/logo/faw.png" alt="">
+              <!-- <img src="./img/logo/gac.png" alt=""> -->
+              <img src="./img/logo/geely.png" alt="">
+              <img src="./img/logo/greatwall.png" alt="">
+              <img src="./img/logo/hafei.png" alt="">
+              <img src="./img/logo/honda.png" alt="">
+              <!-- <img src="./img/logo/hozon.png" alt=""> -->
+              <img src="./img/logo/jac.png" alt="">
+              <!-- <img src="./img/logo/li_auto.png" alt=""> -->
+              <!-- <img src="./img/logo/nio.png" alt=""> -->
+              <img src="./img/logo/nissan.png" alt="">
+              <img src="./img/logo/tesla.png" alt="">
+              <img src="./img/logo/toyota.png" alt="">
+              <!-- <img src="./img/logo/xpeng.png" alt=""> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- =========== IMAGES SLIDER =========== -->
+        <div class="gallery">
+          <div class="carousel">
+            <a class="carousel-item" href="#">
+              <img src="./img/cars/slider/byd_han_ev.jpg" alt="">
+              <h4>HAN EV</h4>
+            </a>
+            <a class="carousel-item" href="#">
+              <img src="./img/cars/slider/byd_song_plus.jpg" alt="">
+              <h4>SONG PLUS</h4>
+            </a>
+            <a class="carousel-item" href="#">
+              <img src="./img/cars/slider/wm-ex-5.jpg" alt="">
+              <h4>EX-5</h4>
+            </a>
+            <a class="carousel-item" href="#">
+              <img src="./img/cars/slider/zeekr_001.jpg" alt="">
+              <h4>001</h4>
+            </a>
+            <a class="carousel-item" href="#">
+              <img src="./img/cars/slider/byd_yuan_plus.jpeg" alt="">
+              <h4>YUAN PLUS</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SOCIAL ICONS -->
+      <div class="socials">
+        <ul class="socials__links">
+          <li class="socials__link-item">
+            <a href="https://www.instagram.com/tokaraba.kg/" class="social__link">
+              <i class="ri-instagram-line"></i>
+            </a>
+          </li>
+
+          <li class="socials__link-item">
+            <a href="https://www.facebook.com/tokaraba.kg?mibextid=ZbWKwL" class="social__link">
+              <i class="ri-facebook-circle-line"></i>
+            </a>
+          </li>
+
+          <li class="socials__link-item">
+            <a href="https://www.youtube.com/channel/UC_tfyiBPiazGE0xQbuc0uTQ" class="social__link">
+              <i class="ri-youtube-line"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+
+  </footer>
+
+  <!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <!-- ========= PRELOADER SCRIPT ========= -->
+  <script>
+    var loader = document.getElementById('preloader');
+
+    window.addEventListener('load', function(){
+      loader.style.display = "none";
+    })
+  </script>
+
+  <!-- ========= JQuery CDN ========= -->
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+  <!-- ========= MATERIALIZE JS ========= -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- ========= CAROUSEL JS - JQuery ========= -->
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.carousel').carousel({
+        numVisible: 3
+      });
+    });
+  </script>
+
+  <!-- ========= MAIN SCRIPT JS ========= -->
+  <script src="./script/main.js"></script>
+</body>
+</html>
